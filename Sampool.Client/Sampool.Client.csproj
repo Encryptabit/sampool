@@ -13,4 +13,12 @@
     <PackageReference Include="MudBlazor" Version="7.*" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\appsettings.Development.json" />
+  </ItemGroup>
+
 </Project>
